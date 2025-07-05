@@ -33,10 +33,19 @@
       };
 
       homeConfigurations= {
-          jf = home-manager.lib.homeManagerConfiguration {
+          desktop = home-manager.lib.homeManagerConfiguration {
               inherit pkgs;
               modules = [
-                  ./home.nix
+                  ./home-manager/desktop.home.nix
+              ];
+          };
+      };
+
+      homeConfigurations= {
+          laptop = home-manager.lib.homeManagerConfiguration {
+              inherit pkgs;
+              modules = [
+                  ./home-manager/laptop.home.nix
               ];
           };
       };
