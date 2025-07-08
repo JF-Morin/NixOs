@@ -161,7 +161,8 @@ hardware.spacenavd.enable = true;
                 zsh # Shell
                 fastfetch # System info
                 zoxide # Smart 'cd' replacement
-                tree # Depth directory listing
+                eza # Better LS command and Tree command
+                ripgrep-all # Ripgrep, with PDF, doc, zip etc
 
 # Development
                 neovim

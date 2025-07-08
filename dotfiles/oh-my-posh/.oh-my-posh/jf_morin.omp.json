@@ -38,7 +38,7 @@
             "branch_ahead_icon": "\u2191",
             "branch_behind_icon": "\u2193",
             "branch_gone": "\u2262",
-            "branch_icon": "\ue0a0 ",
+            "branch_icon": "\uf418 ",
             "branch_identical_icon": "\u2261",
             "cache_duration": "none",
             "cherry_pick_icon": "✓ ",
@@ -72,19 +72,10 @@
       "segments": [
         {
           "properties": {
-            "cache_duration": "none"
-          },
-          "template": "   ",
-          "foreground": "#444444",
-          "type": "text",
-          "style": "plain"
-        },
-        {
-          "properties": {
             "always_enabled": true,
             "cache_duration": "none"
           },
-          "template": "❯ ",
+          "template": " ❯ ",
           "foreground": "#e0f8ff",
           "type": "status",
           "style": "plain",
