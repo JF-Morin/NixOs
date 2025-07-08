@@ -39,7 +39,7 @@
             "branch_behind_icon": "\u2193",
             "branch_gone": "\u2262",
             "branch_icon": "\uf418 ",
-            "branch_identical_icon": "\u2261",
+            "branch_identical_icon": "",
             "cache_duration": "none",
             "cherry_pick_icon": "✓ ",
             "commit_icon": "\u25b7 ",
